@@ -1,0 +1,71 @@
+body {
+  text-align: center;
+  display: inline-grid;
+  margin-left: 33%;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+.modal_div {
+  position: absolute;
+  left: 0;
+  top: 5%;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.438);
+}
+.popUp_body {
+  position: relative;
+  width: 400px;
+  background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
+  box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+}
+
+.popUp_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+  border-bottom: 1px #2e3d49;
+}
+.popUp_close {
+  font-weight: bold;
+  align-content: flex-end;
+  font-size: 2rem;
+  margin-left: 30%;
+}
+.popUp_scores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  font-size: 1.5rem;
+  border-bottom: 1rem #2e3d49;
+}
+.popUp_bottom {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.popUp_button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.popUp_close {
+  cursor: pointer;
+}
+.hide {
+  display: none;
+}
+.popUp_message {
+  color: red;
+  font-size: 1em;
+}
